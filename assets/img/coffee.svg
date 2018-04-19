@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 148 176" width="100px" style="enable-background:new 0 0 148 176;" xml:space="preserve">
+	<devs>
+	<style type="text/css">
+		#coffee {
+		width: 100px;
+		}
+		.cup {fill: #534741;}
+		.holder{fill:#534741;stroke:#000000;stroke-miterlimit:10;}
+
+		.smoke{
+			fill:none;
+			stroke:#808080;
+			animation: dash 3s linear forwards infinite;
+			stroke-dashoffset: 500;
+			stroke-dasharray: 400;
+			stroke-width: 5px;
+		}
+
+		@-webkit-keyframes dash {
+
+		0% {
+			fill-dashoffset: 150;
+			opacity: 20%;
+		}
+
+					100% {
+			stroke-dashoffset: 0;
+		opacity: 0;
+		}
+
+
+	</style>
+</devs>
+
+<g>
+	<polygon class="cup" points="31.4,159.5 20.6,78.5 95.4,77.5 84.6,159.5 	"/>
+	<path d="M94.9,78L93,92.1l-0.3,2.2l-0.6,4.4l-4.4,33.4L84.1,159H31.9L21.1,79L94.9,78 M96,77l-76,1l11,82h54
+		c0.1-0.7,8.1-61,8.1-61.1c0,0,0.9-6.6,0.9-6.6C94.7,87.2,95.3,82.1,96,77L96,77z"/>
+</g>
+<path class="holder" d="M93.5,93.5c0,0-0.3-3.1,1-7c1-3,11.9-2.6,16-2c8.2,1.2,14,6,16,11c2.3,5.6,2.1,19.9-3,30c-2,4-4,7-7,10
+	c-2,2-6.4,6-11,8c-6.2,2.7-12,3.8-18,5c-2,0.4-2,2-1-3c0,0,0-3,1-5c0,0,9.6-2.5,14-5c0,0,5-2,8-5c3.2-3.2,3.8-3.7,6-7c2-3,4-8,5-12
+	c0.8-3.1,1.2-7.1,0-10c-2-5-4.9-7.5-7-8c-4-1-9.8-2.1-13-1c-3,1-4,2-7,4V93.5z"/>
+<path class="smoke" d="M28.5,77.5c10.4-1.7,19-4.1,25-4c12.1,0.1,19.6,1.8,27-3c4-2.6,8-7,7-9c-2-3.9-20.8,7.2-40,0
+	c-6-2.2-11.5-6-11-8c1.2-4.3,29.7,4.1,35-5c2.5-4.4-1.1-11.3-5-17"/>
+</svg>
