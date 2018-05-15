@@ -4,6 +4,42 @@ $information-tablet: "screen and (min-width: 768px)";
 $information-desktop: "screen and (min-width: 992px)";
 $information-large: "screen and (min-width: 1200px)";
 
+@mixin transition {
+  .slide-fade-enter-active {
+    transition: all 2s ease;
+  }
+  .slide-fade-enter
+  {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  .slide-fade-leave-active {
+    transition: all .3s ease;
+  }
+  .slide-fade-leave-to {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+}
+
+@mixin fade {
+  .fade-enter-active {
+    transition: all 1s ease;
+  }
+  .fade-enter
+  {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  .fade-leave-active {
+    transition: all .3s ease;
+  }
+  .fade-leave-to {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+}
+
 @mixin loader {
 
   .loader,
