@@ -17,6 +17,7 @@
 	.st11{fill:#FF9C6A;}
 	.st12{fill:#4D4D4D;stroke:#666666;stroke-width:0.5;stroke-miterlimit:10;}
 	.st13{fill:#797979;}
+	.st14{display:inline;fill:none;stroke:#666666;stroke-width:2;stroke-miterlimit:10;}
 	.st15{fill:#FFFFFF;}
 	.st16{fill:#FFC4BF;}
 	.st17{fill:#FFFFFF;stroke:#FF836A;stroke-width:0.25;stroke-miterlimit:10;}
