@@ -130,7 +130,7 @@ export default {
           width: 200px;
           height: 200px;
           @media #{$information-phone} {
-            margin: 15px auto;
+            margin: 30px auto;
           }
           img {
             width: 100%;

@@ -32,10 +32,6 @@ html, body, #app {
   padding:0;
   height: 100%;
   background: #1a1c33;
-  /*overflow: hidden;*/
-  @media #{$information-phone} {
-    overflow: scroll;
-  }
 }
 
 #app {
