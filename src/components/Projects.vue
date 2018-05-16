@@ -125,7 +125,8 @@ export default {
         transition: .3s;
         span {
           position: relative;
-          z-index: -1;
+          color: #1a1c33;
+          font-weight: 800;
         }
       }
       .development:hover {
@@ -148,11 +149,12 @@ export default {
           width: 90px;
           span {
             font-size: 12px;
+            z-index: 999;
           }
         }
       }
       .scale:hover {
-        background: none;
+        background-image: none;
         border: 2px solid #aafff9;
       }
       .active {
@@ -173,7 +175,7 @@ export default {
         font-size: 10px;
       }
       @media #{$information-phone} {
-        margin-top: -80px;
+        top: -60px;
         float: none;
       }
     }
@@ -181,7 +183,7 @@ export default {
       position: absolute;
       margin-top: -100px;
       @media #{$information-phone} {
-        margin-top: 50px;
+        margin-top: -50px;
       }
     }
     .description {
