@@ -71,9 +71,9 @@ export default {
       projectList.classList.add('project-list-move')
     },
     handleScroll () {
+      console.log(1)
       let projectList = document.getElementsByClassName('project-list')[0]
       let scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop
-      console.log(scrollTop)
       if (scrollTop > 48) {
         projectList.classList.add('fix-project-list-move')
       } else {
@@ -82,10 +82,10 @@ export default {
     }
   },
   mounted () {
-    window.addEventListener('wheel', this.handleScroll)
+    window.addEventListener('scroll', this.handleScroll)
   },
   destroyed () {
-    window.removeEventListener('wheel', this.handleScroll)
+    window.removeEventListener('scroll', this.handleScroll)
   }
 }
 </script>
