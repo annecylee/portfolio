@@ -35,20 +35,22 @@ export default {
 
   @import "../../assets/app.scss";
   .nav {
-    position: absolute;
-    top: 40%;
-    left: 30px;
+    position: relative;
+    top: -170px;
+    left: 50px;
+    float: left;
     z-index: 999;
     @media #{$information-phone} {
-      top: 20px;
+      top: -85px;
+      float: none;
+      left: 0;
     }
     .link {
-      display: block;
-      font-size: 10px;
+      display: inline;
+      font-size: 16px;
       color: #737373;
       text-align: left;
       width: 40px;
-      border-bottom: 2px solid #fff;
       margin: 30px;
       margin-left: 10px;
       @media #{$information-phone} {
@@ -56,6 +58,7 @@ export default {
         height: 40px;
         display: inline;
         color: #bfbfbf;
+        font-size: 15px;
       }
     }
     .router-link-exact-active {
@@ -66,11 +69,8 @@ export default {
       -ms-transition: 1s;
       -o-transition: 1s;
       transition: 1s;
-      @media #{$information-phone} {
-        border-bottom: 1px solid #fff;
-        padding-bottom: 3px;
-      }
-
+      border-bottom: 1px solid #fff;
+      padding-bottom: 3px;
     }
   }
 

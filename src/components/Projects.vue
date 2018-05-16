@@ -30,6 +30,7 @@
         <QunarResearch v-if="projectActived==='research'"/>
         <KonnechResearch v-if="projectActived==='research'"/>
       </div>
+      <p class="description">I am passionate about designing innovative and user-friendly experience. </p>
     </div>
   </transition>
 </template>
@@ -59,7 +60,7 @@ export default {
   methods: {
     handleClick () {
       let divider = document.getElementsByClassName('divider')[0]
-      divider.style.top = '-100px'
+      divider.style.top = '-150px'
       divider.style.transition = '1s'
       let projectList = document.getElementsByClassName('project-list')[0]
       projectList.classList.add('move-right')
@@ -74,9 +75,9 @@ export default {
   @include transition;
   .projects {
     position: relative;
-    z-index: 999;
+    z-index: 99;
     width: 80%;
-    margin: 0 auto;
+    margin: 20px auto;
     @media #{$information-phone} {
       width: 100%;
       padding: 0;
@@ -173,14 +174,22 @@ export default {
       }
       @media #{$information-phone} {
         margin-top: -80px;
+        float: none;
       }
     }
-
     .project-detail {
       position: absolute;
       margin-top: -100px;
       @media #{$information-phone} {
         margin-top: 50px;
+      }
+    }
+    .description {
+      margin-top: 50px;
+      color: #737373;
+      text-align: center;
+      @media #{$information-phone} {
+        display: none;
       }
     }
   }

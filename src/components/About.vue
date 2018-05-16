@@ -68,7 +68,7 @@ export default {
       right: 0;
       @media #{$information-phone} {
         position: absolute;
-        margin-top: -220px;
+        margin-top: -180px;
       }
       .avatar {
         position: absolute;
