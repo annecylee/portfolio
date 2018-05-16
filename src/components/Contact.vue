@@ -3,7 +3,7 @@
     <div class="contact">
       <img
         class="design"
-        src="assets/img/design.svg">
+        src="~assets/img/design.svg">
       <div class="contact-intro">
         <h3>Get In Touch</h3>
         <p>I'd love to help you develop a user-friendly website</p>

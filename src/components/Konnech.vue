@@ -11,7 +11,7 @@
           <P>As a full-time UX Specialist, I designed a set of systems that helped election administrators manage election assets, polling locations, poll workers, and call centers.</P>
         </div>
         <div class="thumbnail">
-          <img src="assets/img/konnech/konnech.png">
+          <img src="~assets/img/konnech/konnech.png">
         </div>
       </div>
       <div class="details">
@@ -21,18 +21,18 @@
         <p> I designed processes and interfaces for web and mobile applications. Analyzing market data and user patterns, drawing flowcharts, designing high-fidelity mockups, I worked closely with various teams.</p>
         <img
           class="examples"
-          src="assets/img/konnech/examples.jpg">
+          src="~assets/img/konnech/examples.jpg">
         <div class="image-list">
           <figure class="image">
-            <img src="assets/img/konnech/electionResult.svg">
+            <img src="~assets/img/konnech/electionResult.svg">
             <figcaption>Election Results System</figcaption>
           </figure>
           <figure class="image">
-            <img src="assets/img/konnech/pls.svg">
+            <img src="~assets/img/konnech/pls.svg">
             <figcaption>PollChief System</figcaption>
           </figure>
           <figure class="image">
-            <img src="assets/img/konnech/iPetitioner.svg">
+            <img src="~assets/img/konnech/iPetitioner.svg">
             <figcaption>iPetitioner</figcaption>
           </figure>
         </div>

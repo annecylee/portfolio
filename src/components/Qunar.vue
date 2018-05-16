@@ -11,7 +11,7 @@
           <p>As a full-time UX designer, I designed flight thickets booking process for more than 5 million customers. My responsibility included interaction design and user research.</p>
         </div>
         <div class="thumbnail">
-          <img src="assets/img/qunar/qunar.png">
+          <img src="~assets/img/qunar/qunar.png">
         </div>
       </div>
       <div class="details">
@@ -20,15 +20,15 @@
           Axure, Photoshop, Prototyping, Usability Testing, User Research</p>
         <div class="image-list">
           <figure class="image">
-            <img src="assets/img/qunar/sketch.svg">
+            <img src="~assets/img/qunar/sketch.svg">
             <figcaption>Flow Sketch</figcaption>
           </figure>
           <figure class="image">
-            <img src="assets/img/qunar/search.svg">
+            <img src="~assets/img/qunar/search.svg">
             <figcaption>Flights Searching Page</figcaption>
           </figure>
           <figure class="image">
-            <img src="assets/img/qunar/payment.svg">
+            <img src="~assets/img/qunar/payment.svg">
             <figcaption>Payment Flow for iPad</figcaption>
           </figure>
         </div>

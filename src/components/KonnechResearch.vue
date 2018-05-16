@@ -11,7 +11,7 @@
           <p>Founded by City of Detroit, this research project studied users' interactions with new voting system to improve the absentee voting experience for Uniformed and Overseas Citizens.</p>
         </div>
         <div class="thumbnail">
-          <img src="assets/img/konnechResearch/survey.jpg">
+          <img src="~assets/img/konnechResearch/survey.jpg">
         </div>
       </div>
       <div class="details">

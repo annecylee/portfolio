@@ -11,7 +11,7 @@
           <p>I worked with coworkers to conduct a series of research to test the existing user experience, to generalize user profile, to provide data support for designing new features. Methodologies included A/B test, user profile, usability testing, survey, interview and data analysis.</p>
         </div>
         <div class="thumbnail">
-          <img src="assets/img/qunarResearch/research.svg">
+          <img src="~assets/img/qunarResearch/research.svg">
         </div>
       </div>
       <div class="details">
@@ -21,15 +21,15 @@
         <p>I designed tests and questionaries, recruited participants, and conducted research. Feedbacks were applied when designed processes. Different methodologies were applied based on different phases product cycle. For example, a usability test might be conducted when there was going to be a big changes from old design.</p>
         <div class="image-list">
           <figure class="image">
-            <img src="assets/img/qunarResearch/cardSorting.svg">
+            <img src="~assets/img/qunarResearch/cardSorting.svg">
             <figcaption>Cards Sorting for Information Design</figcaption>
           </figure>
           <figure class="image">
-            <img src="assets/img/qunarResearch/test.svg">
+            <img src="~assets/img/qunarResearch/test.svg">
             <figcaption>Testing Usability of Hotel Booking Process</figcaption>
           </figure>
           <figure class="image">
-            <img src="assets/img/qunarResearch/survey.svg">
+            <img src="~assets/img/qunarResearch/survey.svg">
             <figcaption>Survey Results</figcaption>
           </figure>
         </div>

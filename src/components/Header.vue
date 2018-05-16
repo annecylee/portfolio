@@ -2,7 +2,7 @@
   <div class="header">
     <img
       class="divider"
-      src="assets/img/header.svg">
+      src="~assets/img/header.svg">
   </div>
 </template>
 

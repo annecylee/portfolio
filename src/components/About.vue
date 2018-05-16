@@ -8,13 +8,13 @@
       <div class="image">
         <img
           class="avatar"
-          src="assets/img/avatar.svg">
+          src="~assets/img/avatar.svg">
         <img
           class="name"
-          src="assets/img/name-note.svg">
+          src="~assets/img/name-note.svg">
         <img
           class="skills"
-          src="assets/img/skills.svg">
+          src="~assets/img/skills.svg">
       </div>
     </div>
   </transition>

@@ -8,15 +8,11 @@
 
 <script>
 import Header from './components/Header.vue'
-import About from './components/About.vue'
-import Projects from './components/Projects.vue'
 import Nav from './components/Nav.vue'
 
 export default {
   components: {
     Header,
-    About,
-    Projects,
     Nav
   }
 }

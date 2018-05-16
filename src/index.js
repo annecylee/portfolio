@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
-import routes from '../src/router/routes'
+import routes from './router/routes'
 
 let router = new VueRouter({
   routes: routes,

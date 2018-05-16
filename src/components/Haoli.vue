@@ -11,7 +11,7 @@
           <p>Haoli Tech is a startup  provides water monitoring service for industrial and agricultural corps. They need a website to promote products and to allow clients to login the to the system to monitor data across a wide range of devices. Working with the backend developer, I delivered an elegant, functional and lightweight website for them.</p>
         </div>
         <div class="thumbnail">
-          <img src="assets/img/haoli/haoli.png">
+          <img src="~/assets/img/haoli/haoli.png">
         </div>
       </div>
       <div class="details">
@@ -21,15 +21,15 @@
         <p>I used VueJS to build the site and provide the front-end with restful APIs. For example, I used ChartJS to translate number to an interactive chart, and used Map API to design a map view for clients to easily find their sensors on the map. I also use Axios to send asynchronous HTTP request to REST.</p>
         <div class="image-list">
           <figure class="image">
-            <img src="assets/img/haoli/login.png">
+            <img src="~assets/img/haoli/login.png">
             <figcaption>Login Widget</figcaption>
           </figure>
           <figure class="image">
-            <img src="assets/img/haoli/map.png">
+            <img src="~assets/img/haoli/map.png">
             <figcaption>Map View</figcaption>
           </figure>
           <figure class="image">
-            <img src="assets/img/haoli/chart.png">
+            <img src="~assets/img/haoli/chart.png">
             <figcaption>Data Chart</figcaption>
           </figure>
         </div>

@@ -128,13 +128,13 @@ export default {
         }
       }
       .development:hover {
-        background-image: url("/assets/img/haoli/haoli.png");
+        background-image: url("~assets/img/haoli/haoli.png");
       }
       .ux:hover {
-        background-image: url("/assets/img/qunar/qunar.png");
+        background-image: url("~assets/img/qunar/qunar.png");
       }
       .research:hover {
-        background-image: url("/assets/img/research/research.png");
+        background-image: url("~assets/img/research/research.png");
       }
       .scale {
         width: 80px;

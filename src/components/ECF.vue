@@ -11,7 +11,7 @@
           <p>This project is to design a website for a venture capital firm. To save on overall cost and reduce development time as required by the client, I delivered a clean and lightweight website less than one week.</p>
         </div>
         <div class="thumbnail">
-          <img src="assets/img/ecf/ecf.jpeg">
+          <img src="~assets/img/ecf/ecf.jpeg">
         </div>
       </div>
       <div class="details">
