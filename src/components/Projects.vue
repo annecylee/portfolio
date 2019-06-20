@@ -25,6 +25,7 @@
       </div>
       <div
         class="project-detail">
+        <Nextdish v-if="projectActived==='development'"/>
         <Haoli v-if="projectActived==='development'"/>
         <ECF v-if="projectActived==='development'"/>
         <Qunar v-if="projectActived==='ux'"/>
@@ -40,6 +41,7 @@
 <script>
 /* eslint-disable vue/order-in-components */
 
+import Nextdish from '../components/Nextdish.vue'
 import Haoli from '../components/Haoli.vue'
 import ECF from '../components/ECF.vue'
 import Qunar from '../components/Qunar.vue'
@@ -49,6 +51,7 @@ import KonnechResearch from '../components/KonnechResearch.vue'
 
 export default {
   components: {
+    Nextdish,
     Haoli,
     ECF,
     Qunar,
@@ -71,7 +74,6 @@ export default {
       projectList.classList.add('project-list-move')
     },
     handleScroll () {
-      console.log(1)
       let projectList = document.getElementsByClassName('project-list')[0]
       let scrollTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop
       if (scrollTop > 48) {
