@@ -15,27 +15,6 @@
 	.st9{fill:#333333;}
 	.st10{opacity:9.000000e-02;}
 	.st11{fill:none;stroke:#67B1FF;stroke-width:0.25;stroke-miterlimit:10;}
-
-	#flight, #path {
-		transform-origin: 75px 188px;
-  		animation: wave 1s infinite alternate forwards;
-   		animation-timing-function: ease-in-out;
-		}
-
-
-	@-webkit-keyframes wave {
-		0% {
-				transform: rotate(0deg);
-		}
-		50% {
-						transform: rotate(.5deg);
-		}
-		100% {
-						transform: rotate(-.5deg);
-		}
-
-
-	}
 </style>
 <g id="name_1_">
 	<g>
@@ -47,7 +26,7 @@
 		<polygon class="st2" points="428,25 329,64 331.5,34.5 		"/>
 		<polygon class="st3" points="328.7,64.1 321.5,83.5 340.5,75.5 		"/>
 	</g>
-	<path id="path" class="st4" d="M208,228c11.3-10,35-28.2,42.5-44.8c6.5-14.2,10.3-53.3,27.4-63.9c8.3-5.2,15.9-3.9,17-3.3
+	<path class="st4" d="M208,228c11.3-10,35-28.2,42.5-44.8c6.5-14.2,10.3-53.3,27.4-63.9c8.3-5.2,15.9-3.9,17-3.3
 		c3.3,1.8,11.8,5.2,4.7,12.5c-5.7,5.8-39.9,6.1-32.1-10c2.8-5.8,30.7-24.9,32.1-24.9"/>
 	<g id="name">
 		<path class="st5" d="M62.2,192.2c0.3,0.1,0.6,0.3,0.8,0.6c0.2,0.2,0.2,0.5,0.2,0.7c0,0.3-0.1,0.5-0.3,0.7
