@@ -3,7 +3,9 @@
     <div class="about">
       <div class="text">
         <h3>Who Am I</h3>
-        <p>I am a front-end developer, ux-designer and ux-researcher. Focusing on details, I design beautiful and functional user experiences, writing clean, elegant code.</p>
+        <p>
+          I am a front-end developer, UX designer, and UX researcher. With a keen focus on details, I design beautiful and functional user experiences while also writing clean and elegant code.
+        </p>
       </div>
       <div class="image">
         <img
